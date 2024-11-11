@@ -272,7 +272,7 @@ default_container_timeout: "240"
 # config.*.yaml file it exists in.
 hooks:
   post-start:
-    - exec: "php artisan migrate"
+    - exec: "composer install && composer update && php artisan migrate"
 
 # Many DDEV commands can be extended to run tasks before or after the
 # DDEV command is executed, for example "post-start", "post-import-db",
