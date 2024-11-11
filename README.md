@@ -23,3 +23,4 @@ Below is a list of files I created myself. (Note: PHPDocs were generated with th
 1. run "ddev start"
 2. open https://laravelHarrypotter.ddev.site
 3. If it doesn’t load immediately, wait a moment and refresh the page.
+4. run "composer install" inside of the container
